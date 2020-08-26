@@ -22,5 +22,3 @@ print(foldersList)
 
 foldersList.pop()
 print(foldersList)
-
-foldersList.pop()
