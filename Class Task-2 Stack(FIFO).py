@@ -1,0 +1,11 @@
+from collections import deque
+numbers = deque()
+numbers.append(18)
+numbers.append(16)
+numbers.append(14)
+numbers.append(12)
+numbers.append(10)
+print(numbers)
+numbers.popleft()
+print("After Poping Left FIFO Works")
+print(numbers)
